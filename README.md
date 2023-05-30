@@ -2,8 +2,8 @@
 Frontend çalışmalarımı takip için oluşturduğum repo
 
 
-- []HTML Dersleri
-- []CSS Dersleri
-- []Bootstrap Dersleri
-- []JS Dersleri
-- []C# Dersleri
+- [ ]HTML Dersleri
+- [ ]CSS Dersleri
+- [ ]Bootstrap Dersleri
+- [ ]JS Dersleri
+- [ ]C# Dersleri
