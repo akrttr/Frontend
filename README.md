@@ -1,2 +1,2 @@
 # Frontend
-Frontend çalışmalarımı takip için oluşturduğum rep
+Frontend çalışmalarımı takip için oluşturduğum repo
