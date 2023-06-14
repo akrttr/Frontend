@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" />
+      </div>
+      <br />
+
+      <div>
+        <label for="surname">Soyadınız:</label>
+        <input type="text" id="surname" />
+      </div>
+      <br />
+      <div>
+        <label for="parola">Password:</label>
+        <input type="password" id="parola" />
+      </div>
+      <div>
+        <label for="intro">Kendinizi Tanıtın</label>
+        <textarea id="intro" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <p>Cinsiyet</p>
+        <input type="radio" id="Erkek" name="cinsiyet" />
+        <label for="Erkek">Erkek</label>
+        <input type="radio" id="Kadın" name="cinsiyet" />
+        <label for="Kadın">Kadın</label>
+        <input type="radio" id="Belirtmek İstemiyorum" name="cinsiyet" />
+        <label for="Belirtmek İstemiyorum">Belirtmek İstemiyorum</label>
+      </div>
+
+      <div>
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birtday" />
+      </div>
+
+      <div>
+        <label for="eposta">Eposta</label>
+        <input type="email" id="email" />
+      </div>
+      <div>
+        <p><strong>Meslek</strong></p>
+        <input type="checkbox" id="Mühendis" />
+        <label for="Mühendis">Mühendis</label>
+        <input type="checkbox" id="Mimar" />
+        <label for="Mimar">Mimar</label>
+        <input type="checkbox" id="Doktor" />
+        <label for="Doktor">Doktor </label>
+      </div>
+      <br />
+      <div>
+        <label for="cities"></label>
+        <select id="cities">
+          <option value="18">Çankırı</option>
+          <option value="34">İstanbul</option>
+          <option value="06">Ankara</option>
+        </select>
+      </div>
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Temizle</button>
+    </form>
+  </body>
+</html>
